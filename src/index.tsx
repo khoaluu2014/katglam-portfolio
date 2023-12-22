@@ -4,14 +4,16 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Testimonials from './components/Testimonials';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+    <React.StrictMode>
         <Nav/>
         <Hero/>
+        <Testimonials/>
   </React.StrictMode>
 );
 
