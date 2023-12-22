@@ -3,7 +3,7 @@ import Kat from '../assets/kat.png'
 const Home = () => {
     return (
         <section id='home'> 
-            <div className='bg-blue h-auto w-full bg-background px-12 py-20 font-roboto lg:h-screen'>
+            <div className='h-auto w-full bg-background px-12 py-20 font-roboto lg:h-screen'>
                 <div className='mt-6 grid items-center gap-8 text-left text-xl md:grid-cols-2'>
                     <div className='grid gap-8'>
                         <div>
