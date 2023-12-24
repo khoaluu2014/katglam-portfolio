@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Testimonials from './components/Testimonials';
+import Services from './components/Services';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -13,6 +15,8 @@ root.render(
     <React.StrictMode>
         <Nav/>
         <Hero/>
+        <About/>
+        <Services/>
         <Testimonials/>
   </React.StrictMode>
 );

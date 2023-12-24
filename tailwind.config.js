@@ -3,12 +3,15 @@ module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         fontFamily: {
-            roboto: ["Roboto","sans-serif"]
+            'body': ["Playfair Display", "serif"]
         },
         extend: {
             colors: {
-                background: '#F5EBE0',
-                hero: '#E3D5CA'
+                one: '#EDEDE9',
+                two: '#D6CCC2',
+                three: '#F5EBE0',
+                four: '#E3D5CA',
+                five: '#D5BDAF',
             }
         }
     },

@@ -1,6 +1,14 @@
 import image1 from '../assets/krystalc.jpg'
 import image2 from '../assets/khinseyv.jpg'
 import image3 from '../assets/ivyn.jpg'
+import hairstroke from '../assets/hairstroke.jpg'
+import lipblush from '../assets/lipblush.jpeg'
+import ombre from '../assets/ombreshading.jpeg'
+import training from '../assets/training.jpg'
+import makeup1 from '../assets/makeup1.jpg'
+import makeup2 from '../assets/makeup2.jpg'
+import makeup3 from '../assets/makeup3.jpg'
+import makeup4 from '../assets/makeup4.jpg'
 export const testimonials = [ 
     {
         name: "Krystal C.",
@@ -29,5 +37,39 @@ export const testimonials = [
         + " She always checked in to see if I was pain."
         + " Will definitely come back for my yearly touch ups! 10/10 recommended", 
         image: image3,
+    },
+];
+
+export const services = [
+    {
+        name: "Hair Stroke",
+        image: hairstroke
+    },
+    {
+        name: "Lip blush",
+        image: lipblush 
+    },
+    {
+        name: "Ombre Shading",
+        image: ombre
+    },
+    {
+        name: "Training",
+        image: training 
+    },
+];
+
+export const makeups = [
+    {
+        image: makeup1 
+    },
+    {
+        image: makeup2 
+    },
+    {
+        image: makeup3 
+    },
+    {
+        image: makeup4 
     },
 ];
