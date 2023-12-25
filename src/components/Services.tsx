@@ -6,7 +6,7 @@ const Services = () => {
         <section id='services'>
             <div className='grid h-auto w-full content-evenly justify-items-center gap-8 font-body lg:h-screen'>
                 <div className='mt-24 block'>
-                    <div className='text-5xl font-bold'>
+                    <div className='text-4xl font-bold lg:text-5xl'>
                         Specialties 
                     </div> 
                     <hr className='my-4 h-1 bg-black'/>
@@ -24,7 +24,7 @@ const Services = () => {
                     }
                 </div>
                 <div className='mt-8 block'>
-                    <div className='text-5xl font-bold'>
+                    <div className='text-4xl font-bold lg:text-5xl'>
                         Makeup By Kat 
                     </div> 
                     <hr className='my-4 h-1 bg-black'/>
