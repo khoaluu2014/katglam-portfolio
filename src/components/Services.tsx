@@ -14,10 +14,15 @@ const Services = () => {
                 <div className='flex flex-col justify-evenly gap-20 px-14 text-xl lg:flex-row'>
                     {
                         services.map((service) =>(
-                            <div key={service.name} className='flex flex-col items-center'>
-                                <img src={service.image} className='m-8 h-auto w-screen rounded-full object-cover' alt=''/>
+                            <div key={service.image} className='flex w-full flex-col items-center rounded-lg'>
+                                <div className='m-4 h-auto'>
+                                    <img src={service.image} className='rounded-full object-contain' alt=''/>
+                                </div>
                                 <div className='mb-4 text-2xl font-semibold'>
                                     {service.name}
+                                </div>
+                                <div className='whitespace-pre-wrap'>
+                                    {service.description}
                                 </div>
                             </div>
                         )) 

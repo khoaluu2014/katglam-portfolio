@@ -5,6 +5,7 @@ import hairstroke from '../assets/hairstroke.jpg'
 import lipblush from '../assets/lipblush.jpeg'
 import ombre from '../assets/ombreshading.jpeg'
 import training from '../assets/training.jpg'
+import browscorrection from '../assets/browscorrection.jpeg'
 import makeup1 from '../assets/makeup1.jpg'
 import makeup2 from '../assets/makeup2.jpg'
 import makeup3 from '../assets/makeup3.jpg'
@@ -42,20 +43,38 @@ export const testimonials = [
 
 export const services = [
     {
-        name: "Hair Stroke",
-        image: hairstroke
+        name: "Nano Hairstroke",
+        image: hairstroke,
+        description: 
+        "- Also known as nano brows. \n"
+        + "- Created using a machine to produce thin, hair-like strokes on the eyebrow area. \n"
+        + "- Simulate natural hair growth. \n"
+        + "- Soft, nautural and defined look."
     },
     {
         name: "Lip blush",
-        image: lipblush 
+        image: lipblush,
+        description:
+        "- Beauty enhancement for your lips. \n"
+        + "- Correct your lip colors and provide a fuller look by defining the lip borders.\n"
+        + "- Heals into a natural tint, brightening up your complexion."
     },
     {
         name: "Ombre Shading",
-        image: ombre
+        image: ombre,
+        description:
+        "- Permanent makeup, suitable for all skin type.\n"
+        + "- Offers both natural & full, compact look.\n"
+        + "- Eyebrows shape tailored to your bone structures and preference.\n"
+        + "- Artist will consult and shape the brows before the procedure."
     },
     {
-        name: "Training",
-        image: training 
+        name: "Brow Correction",
+        image: browscorrection,
+        description:
+        "- For those who have had done brows makeup before.\n"
+        + "- Microblading or other forms of tattoos.\n"
+        + "- Correct both shape and color for clients."
     },
 ];
 
