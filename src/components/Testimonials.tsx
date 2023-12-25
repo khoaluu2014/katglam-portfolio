@@ -11,7 +11,7 @@ const Testimonials = () => {
                     </h1>
                 </div>
                 <hr className='my-4 mb-24 h-1 w-52 bg-black'/>
-                <div className='flex flex-col justify-evenly gap-20 px-14 text-xl lg:flex-row'>
+                <div className='text-md flex flex-col justify-evenly gap-20 px-4 lg:flex-row lg:px-14 lg:text-xl'>
                     {testimonials.map((testimonial) => (
                         <div key={testimonial.name} className='rounded-lg bg-three p-4 shadow-lg'>
                             <div className='font-light'>

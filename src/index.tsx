@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Testimonials from './components/Testimonials';
 import Services from './components/Services';
 import About from './components/About';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
         <About/>
         <Services/>
         <Testimonials/>
+        <Footer/>
   </React.StrictMode>
 );
 

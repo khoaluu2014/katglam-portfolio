@@ -2,6 +2,7 @@ import React from 'react';
 import Kat from '../assets/kat.png'
 import Phone from '../assets/phone.svg'
 import Mail from '../assets/mail.svg'
+import Button from './Button';
 const Home = () => {
     return (
         <section id='home'> 
@@ -23,31 +24,22 @@ const Home = () => {
                                     Owner & Makeup Artist of Kat Glam
                                 </div>
                             </div>
-                            <img src={Phone} className='my-6 mr-2 inline h-6 w-6'/> 
+                            <img src={Phone} alt='phone' className='my-6 mr-2 inline h-6 w-6'/> 
                             <div className='inline text-sm uppercase'>
                                 657-319-8091
                             </div>
                             <br/>
-                            <img src={Mail} className='mr-2 inline h-6 w-6'/> 
+                            <img src={Mail} alt='mail' className='mr-2 inline h-6 w-6'/> 
                             <div className='inline text-sm uppercase'>
                                 katbrowsbeauty@gmail.com
                             </div>
                         </div>
                         <div className='mt-8 grid justify-items-center gap-4 font-bold'>
-                            <p>
-                                Orange County / Los Angeles
-                            </p>
-                            <div className='mt-4'>
-                                <a className='rounded-full bg-black px-12 py-4 text-white'
-                                    href='https://squareup.com/appointments/book/kwig883o4fccu3/L7948E9ZSVEKB/services'
-                                    target='_blank'>
-                                    Book Now
-                                </a>
-                            </div>
+                            <Button/>
                         </div>
                     </div>
                     <div className='order-first w-[80%] overflow-hidden rounded-full bg-three shadow-xl lg:order-last lg:ml-24'>
-                        <img src={Kat} className='min-w-[80%] object-contain object-center' />
+                        <img src={Kat} alt='kat' className='min-w-[80%] object-contain object-center' />
                     </div>
                 </div>
             </div>

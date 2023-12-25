@@ -8,7 +8,7 @@ const About = () => {
                     <p className='mb-12 font-bold text-five'>
                         About Me
                     </p>
-                    <p className='mb-24 text-5xl font-bold'>
+                    <p className='mb-24 text-3xl font-bold lg:text-5xl'>
                         I am a makeup artist based in Orange County with a passion for editorial, bridal, and beauty shoots,
                         with over 5 years in the industry.
                     </p>
