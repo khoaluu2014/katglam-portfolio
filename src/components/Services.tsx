@@ -9,7 +9,7 @@ const Services = () => {
                     <div className='text-4xl font-bold lg:text-5xl'>
                         Specialties 
                     </div> 
-                    <hr className='my-4 h-1 bg-black'/>
+                    <hr className='my-4 h-1 bg-four'/>
                 </div> 
                 <div className='flex flex-col justify-evenly gap-20 px-14 text-xl lg:flex-row'>
                     {

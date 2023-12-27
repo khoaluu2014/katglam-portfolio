@@ -9,15 +9,7 @@ import makeup1 from '../assets/makeup1.jpg'
 import makeup2 from '../assets/makeup2.jpg'
 import makeup3 from '../assets/makeup3.jpg'
 import makeup4 from '../assets/makeup4.jpg'
-import hairstroke1 from '../assets/hairstroke/1.jpeg'
-import hairstroke2 from '../assets/hairstroke/2.jpeg'
-import hairstroke3 from '../assets/hairstroke/3.jpeg'
-import lipblush1 from '../assets/lipblush/1.jpeg'  
-import lipblush2 from '../assets/lipblush/2.jpeg'  
-import lipblush3 from '../assets/lipblush/3.jpeg'  
-import ombre1 from '../assets/ombre/1.jpeg'  
-import ombre2 from '../assets/ombre/2.jpeg'  
-import ombre3 from '../assets/ombre/3.jpeg'  
+
 export const testimonials = [ 
     {
         name: "Krystal C.",
@@ -117,38 +109,5 @@ export const portfolio = [
                 image: makeup4 
             },
         ],
-        "Hair Stroke": [
-            {
-                image: hairstroke1
-            },
-            {
-                image: hairstroke2
-            },
-            {
-                image: hairstroke3
-            }
-        ],
-        "Lip Blush": [
-            {
-                image: lipblush1
-            },
-            {
-                image: lipblush2
-            },
-            {
-                image: lipblush3
-            }
-        ],
-        "Ombre": [
-            {
-                image: ombre1
-            },
-            {
-                image: ombre2
-            },
-            {
-                image: ombre3
-            }
-        ]
     }
 ];
