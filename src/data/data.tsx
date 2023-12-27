@@ -4,7 +4,6 @@ import image3 from '../assets/ivyn.jpg'
 import hairstroke from '../assets/hairstroke.jpg'
 import lipblush from '../assets/lipblush.jpeg'
 import ombre from '../assets/ombreshading.jpeg'
-import training from '../assets/training.jpg'
 import browscorrection from '../assets/browscorrection.jpeg'
 import makeup1 from '../assets/makeup1.jpg'
 import makeup2 from '../assets/makeup2.jpg'
@@ -16,9 +15,9 @@ import hairstroke3 from '../assets/hairstroke/3.jpeg'
 import lipblush1 from '../assets/lipblush/1.jpeg'  
 import lipblush2 from '../assets/lipblush/2.jpeg'  
 import lipblush3 from '../assets/lipblush/3.jpeg'  
-import ombre1 from '../assets/lipblush/1.jpeg'  
-import ombre2 from '../assets/lipblush/2.jpeg'  
-import ombre3 from '../assets/lipblush/3.jpeg'  
+import ombre1 from '../assets/ombre/1.jpeg'  
+import ombre2 from '../assets/ombre/2.jpeg'  
+import ombre3 from '../assets/ombre/3.jpeg'  
 export const testimonials = [ 
     {
         name: "Krystal C.",
@@ -104,7 +103,7 @@ export const makeups = [
 
 export const portfolio = [
     {
-        "makeup" : [
+        "Makeup" : [
             {
                 image: makeup1 
             },
@@ -118,7 +117,7 @@ export const portfolio = [
                 image: makeup4 
             },
         ],
-        "hairstroke": [
+        "Hair Stroke": [
             {
                 image: hairstroke1
             },
@@ -129,7 +128,7 @@ export const portfolio = [
                 image: hairstroke3
             }
         ],
-        "lipblush": [
+        "Lip Blush": [
             {
                 image: lipblush1
             },
@@ -140,7 +139,7 @@ export const portfolio = [
                 image: lipblush3
             }
         ],
-        "ombre": [
+        "Ombre": [
             {
                 image: ombre1
             },
