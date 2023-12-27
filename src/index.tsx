@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials';
 import Services from './components/Services';
 import About from './components/About';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
         <Hero/>
         <About/>
         <Services/>
+        <Portfolio/>
         <Testimonials/>
         <Footer/>
   </React.StrictMode>

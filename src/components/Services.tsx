@@ -15,8 +15,8 @@ const Services = () => {
                     {
                         services.map((service) =>(
                             <div key={service.image} className='flex w-full flex-col items-center rounded-lg'>
-                                <div className='m-4 h-auto'>
-                                    <img src={service.image} className='rounded-full object-contain' alt=''/>
+                                <div className='m-4 h-72 w-72'>
+                                    <img src={service.image} className='rounded-full object-cover' alt=''/>
                                 </div>
                                 <div className='mb-4 text-2xl font-semibold'>
                                     {service.name}
@@ -28,23 +28,7 @@ const Services = () => {
                         )) 
                     }
                 </div>
-                <div className='mt-8 block'>
-                    <div className='text-4xl font-bold lg:text-5xl'>
-                        Makeup By Kat 
-                    </div> 
-                    <hr className='my-4 h-1 bg-black'/>
-                </div> 
-                <div className='flex flex-col justify-evenly gap-20 px-14 text-xl lg:flex-row'>
-                    {
-                        makeups.map((makeup) =>(
-                            <div key={makeup.image} className='flex flex-col items-center'>
-                                <img src={makeup.image} className='m-8 h-64 w-64 rounded-full object-cover' alt=''/>
-                            </div>
-                        )) 
-                    }
-                </div>
             </div>
-
         </section>
     );
 };
